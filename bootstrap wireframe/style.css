@@ -1,0 +1,144 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  #navbar .nav-link {
+    font-size: 18px;
+  }
+  
+  #navbar .navbar-brand {
+    font-weight: bold;
+  }
+  
+  #home {
+    position: relative;
+    background-image: url(/images/bootstrap_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  
+
+  #home h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  #home .btn-primary {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+  }
+  
+  #home .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  section {
+    padding: 100px 0;
+  }
+  
+  #about img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #59378d;
+    border: 2px solid #fff;
+  }
+
+  #projects{
+    background-color: #59378d;
+  }
+
+  #projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  #projects .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #projects .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #projects .btn-outline-primary {
+    border-color: #59378d;
+    color: #59378d;
+  }
+  
+  #projects .btn-outline-primary:hover {
+    background-color: #59378d;
+    color: #fff;
+  }
+
+  
+  #contact .form-control {
+    border-radius: 0.25rem;
+    box-shadow: none;
+  }
+  
+  #contact .form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  #contact button {
+    background-color: #59378d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #contact button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #59378d;
+  }
+  
+  footer h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  footer a {
+    transition: 0.3s ease;
+  }
+  
+  footer i {
+    font-size: 18px;
+  }
+  
+  footer .bi-facebook:hover {
+    color: #3b5998;
+  }
+  
+  footer .bi-twitter:hover {
+    color: #00acee;
+  }
+  
+  footer .bi-instagram:hover {
+    color: #e1306c;
+  }
+  
+  footer .bi-linkedin:hover {
+    color: #0a66c2;
+  }
+  
